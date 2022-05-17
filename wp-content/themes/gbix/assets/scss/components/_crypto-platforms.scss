@@ -1,0 +1,56 @@
+.crypto-platforms{
+    overflow: hidden;  
+    .sec-heading{
+        @include respond-below(lg){
+            text-align: center;
+        }
+    }
+    .cp{
+        &-content{
+            padding: rem(100px) 0;
+            @include respond-below(lg){
+                padding: rem(60px) 0 0;
+            }
+            .row {
+                @include respond-below(lg){
+                    max-width: 90%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                @media (max-width:375px) {
+                    max-width: none;
+                    width: calc(100% + 30px);
+                    margin-left: rem(-15px);
+                    margin-right: rem(-15px);
+                }
+            }
+        }
+        &-list{
+            margin-bottom: rem(30px);
+            &-icon{
+                min-width: rem(24px);
+                width: rem(25px);
+                height: rem(25px);
+                margin-right: rem(18px);
+            }
+            span{
+                word-break: keep-all;
+            }
+        }
+        &-img{
+            transform: scale(1.35);
+            transform-origin: left;
+            @include respond-below(lg){
+                transform: scale(1.15);
+                transform-origin: top;
+                max-width: rem(500px);
+                margin-left: auto;
+                margin-right: auto;
+            }
+            @include respond-below(sm){
+                margin-left: rem(-30px);
+                margin-right: rem(-30px);
+            }
+        }
+    }
+}

@@ -1,0 +1,136 @@
+.your-journey{
+    padding: rem(150px) 0;
+    @include respond-below(xl){
+        padding: rem(100px) 0;
+    }
+    .small-title{
+        margin-bottom: rem(100px);
+        @include respond-below(xl){
+            margin-bottom: rem(60px);
+        }
+        @include respond-below(md){
+            display: none;
+        }
+    }
+    .yj{
+        &-wrap{
+            @include container-space(left);
+            &-inner{
+                @include respond-below(md){
+                    padding-right: rem(30px);
+                }
+            }
+        }
+        &-block{
+            overflow: hidden;
+            @include respond-below(md){
+                min-width: rem(375px);
+                padding-left: rem(15px);
+                padding-right: rem(15px);
+            }
+            &:not(:last-child){
+                margin-bottom: rem(100px);
+                @include respond-below(xl){
+                    margin-bottom: rem(60px);
+                }
+            }
+            @include respond-above(xl){
+                &:last-child{
+                    padding-bottom: rem(50px);
+                }
+            }
+            &-wrap{
+                position: relative;
+                height: rem(800px);
+                @include respond-below(xl){
+                    height: rem(650px);
+                }
+                @include respond-below(md){
+                    height: auto;
+                }
+                &::before{
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    bottom: -2px;
+                    height: 25%;
+                    width: 100%;
+                    background-image: linear-gradient(180deg,rgba(255,255,255,0), rgba(255,255,255,1));
+                    z-index: 1;
+                    pointer-events: none;
+                    opacity: 1;
+                    transition: 0.3s;
+                    @include respond-below(xl){
+                        height: 50%;
+                    }
+                    @include respond-below(md){
+                        display: none;
+                    }
+                }
+                &.scroll-ended{
+                    &::before{
+                        opacity: 0;
+                    }
+                }
+            }
+            &-content{
+                padding-left: rem(90px);
+                padding-right: rem(90px);
+                @include respond-below(xxl){
+                    padding-left: rem(45px);
+                    padding-right: rem(45px);
+                }
+                @include respond-below(xl){
+                    padding-left: rem(20px);
+                    padding-right: rem(20px);
+                }
+                @include respond-below(md){
+                    padding-left: 0;
+                    padding-right: 0;
+                    margin-bottom: rem(25px);
+                }
+            }
+            &-img{
+                img{
+                    @include respond-below(md){
+                        max-height: rem(200px);
+                    }
+                }
+            }
+            .btn-wrap{
+                margin-top: rem(44px);
+                @include respond-below(lg){
+                    margin-top: rem(25px);
+                }
+            }
+            .btn{
+                margin-right: rem(12px);
+                margin-bottom: rem(10px);
+            }
+        }
+    }
+    .os-scrollbar{
+        &-vertical{
+            left: 0;
+            width: 6px;
+        }
+        &-horizontal{
+            height: 7px;
+        }
+        &-track{
+            background-color: $gray-100 !important;
+        }
+        &-handle{
+            background: $secondary-100 !important;
+        }
+    }
+    .os{
+        &-content{
+            @include respond-below(md){
+                display: flex;
+                margin-left: rem(-15px);
+                margin-right: rem(-15px);
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="74px" height="55px" viewBox="0 0 74 55" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="Group-11" transform="translate(1 1)">
+    <g id="Group-15" transform="translate(9 1)">
+      <path d="M50.4168 41.6667L33.9168 41.6667L21.0835 41.6667L4.58356 41.6667C3.06706 41.6667 1.8335 40.4206 1.8335 38.8889L1.8335 36.1111L53.1668 36.1111L53.1668 38.8889C53.1668 40.4206 51.9332 41.6667 50.4168 41.6667M35.4876 48.1482L19.5122 48.1482C20.8205 46.9826 21.7152 45.3537 21.943 43.5186L33.0572 43.5186C33.2845 45.3537 34.1798 46.9826 35.4876 48.1482M4.58356 1.85181L50.4168 1.85181C51.9332 1.85181 53.1668 3.09784 53.1668 4.62954L53.1668 34.2593L1.8335 34.2593L1.8335 4.62954C1.8335 3.09784 3.06706 1.85181 4.58356 1.85181M50.4166 0L4.58336 0C2.05627 0 0 2.07692 0 4.62955L0 38.889C0 41.4416 2.05627 43.5185 4.58336 43.5185L20.0839 43.5185C19.6454 46.1419 17.3866 48.1482 14.6666 48.1482C14.1605 48.1482 13.75 48.5628 13.75 49.0741C13.75 49.5855 14.1605 50 14.6666 50L40.3333 50C40.84 50 41.25 49.5855 41.25 49.0741C41.25 48.5628 40.84 48.1482 40.3333 48.1482C37.6133 48.1482 35.3546 46.1419 34.9161 43.5185L50.4166 43.5185C52.9437 43.5185 55 41.4416 55 38.889L55 4.62955C55 2.07692 52.9437 0 50.4166 0" id="Fill-1" fill="#006638" fill-rule="evenodd" stroke="none" />
+      <path d="M4.84612 6.70963C4.84612 6.21174 5.26035 5.80642 5.76918 5.80642L48.2308 5.80642C48.7401 5.80642 49.1539 6.21174 49.1539 6.70963L49.1539 29.2903C49.1539 29.7883 48.7401 30.1936 48.2308 30.1936L5.76918 30.1936C5.26035 30.1936 4.84612 29.7883 4.84612 29.2903L4.84612 6.70963ZM5.76918 32L48.2308 32C49.7578 32 51 30.7845 51 29.2903L51 6.70963C51 5.21548 49.7578 4 48.2308 4L5.76918 4C4.2422 4 3 5.21548 3 6.70963L3 29.2903C3 30.7845 4.2422 32 5.76918 32L5.76918 32Z" id="Fill-3" fill="#006638" fill-rule="evenodd" stroke="none" />
+      <path d="M28 38L26 38C25.4477 38 25 38.4478 25 39C25 39.5523 25.4477 40 26 40L28 40C28.5527 40 29 39.5523 29 39C29 38.4478 28.5527 38 28 38" id="Fill-5" fill="#006638" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="Group-28">
+      <path d="M69 0L69 1" id="Stroke-6" fill="none" fill-rule="evenodd" stroke="#00C642" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M72 3L71 3" id="Stroke-8" fill="none" fill-rule="evenodd" stroke="#00C642" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M69 6L69 5" id="Stroke-9" fill="none" fill-rule="evenodd" stroke="#00C642" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M66 3L67 3" id="Stroke-10" fill="none" fill-rule="evenodd" stroke="#00C642" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M5 48L4 49" id="Stroke-11" fill="none" fill-rule="evenodd" stroke="#00C642" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M5 53L4 52" id="Stroke-12" fill="none" fill-rule="evenodd" stroke="#00C642" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M0 53L1 52" id="Stroke-13" fill="none" fill-rule="evenodd" stroke="#00C642" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M0 48L1 49" id="Stroke-14" fill="none" fill-rule="evenodd" stroke="#00C642" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  </g>
+</svg>

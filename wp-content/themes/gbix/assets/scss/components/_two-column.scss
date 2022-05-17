@@ -1,0 +1,122 @@
+.two-column-comp{
+    padding: rem(150px) 0;
+
+    @include respond-below(lg){
+        padding: rem(60px) 0;
+    }
+    
+    .tcc{
+        &-wrapper{
+            // padding-left: ;
+          
+        }
+        &-row{
+            display: flex;
+            margin: 0 0 rem(160px) 0;
+
+            
+            @include respond-below(lg){
+                flex-wrap: wrap;
+                text-align: center;
+                margin: 0 0 rem(60px) 0;
+            }
+            &:nth-child(even){
+                flex-direction: row-reverse;
+                .tcc{
+                    &-col{
+                        &:nth-child(odd){
+                            padding:0 0 0 rem(100px);
+                            @include container-space(right);
+
+                            @include respond-below(md){
+                                    padding: 0 rem(32px);
+                            }
+                            .tcc-content-block{
+                                padding-left: 0;
+                                @include respond-below(md){
+                                    padding: 0;
+                                    text-align: center;
+                                }
+                            }
+                            
+                        }
+                        &:nth-child(even){
+                            padding: 0 rem(100px) 0 0;
+                            text-align: right;
+                            @include respond-below(xl){
+                                padding: 0 ;
+                            }
+                            @include respond-below(md){
+                                padding: 0 rem(32px);
+                            }
+                            .tcc-content-block{
+                                
+                                @include respond-below(md){
+                                    padding: 0;
+                                    text-align: center;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &:last-of-type{
+                margin: 0;
+            }
+
+        }
+        &-col{
+            width: 50%;
+           
+            &:nth-child(odd){
+                display: flex;
+                align-items: center;
+                padding-right: 0;
+                @include container-space(left);
+                @include respond-below(md){
+                    width: 100%;
+                    padding: 0 rem(32px);
+                    .tcc-content-block{
+                        padding: 0;
+                    }
+                }
+            }
+            &:nth-child(even){
+                padding: 0 0 0 rem(100px);
+                @include respond-below(md){
+                    width: 100%;
+                    padding: 0 rem(32px);
+                }
+            }
+        }
+        &-content-block{
+            width: 100%;
+            @include respond-below(md){
+                padding:0;
+                text-align: center;
+                // margin:0 0 rem(50px) 0;
+            }
+            h2{
+                margin: 0 0 rem(25px) 0;
+                @include respond-below(md){
+                    margin: 0 0 rem(15px) 0;
+                }
+            }
+            p{
+                margin: 0 0 rem(50px) 0;
+                @include respond-below(md){
+                    margin: 0 0 rem(25px) 0;
+                }
+            }
+        }
+        &-image-block{
+            @include respond-below(md){
+                text-align: center;
+                margin: rem(50px) 0 0 0;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

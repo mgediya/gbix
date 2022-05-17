@@ -1,0 +1,140 @@
+.contact-us{
+    padding-top: rem(270px);
+    padding-bottom: rem(120px);
+    @include respond-below(lg){
+        padding-top: rem(140px);
+        padding-bottom: rem(60px);
+    }
+    &.space-minus{
+        padding-top: rem(221px);
+        padding-bottom: rem(221px);
+        @include respond-below(lg){
+            padding-top: rem(111px);
+            padding-bottom: rem(111px);
+        }
+    }
+    .cu{
+        &-content{
+            margin-bottom: rem(50px);
+            @include respond-below(lg){
+                text-align: center;
+            }
+            .top-title{
+                font-weight: 600;
+                color: $primary-100;
+            }
+            ul{
+				padding: 0;
+				margin: rem(40px) 0 0;
+                @include respond-below(lg){
+                    max-width: rem(450px);
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                @include respond-below(sm){
+                    max-width: rem(270px);
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+			}
+			li{
+				display: flex;
+				align-items: baseline;
+                text-align: left;
+				list-style: none;
+                font-size: rem(18px);
+				a{
+                    color: $black;
+					text-decoration: none;	
+                    transition: 0.3s;
+					&:hover, &:focus{
+						color: $secondary-100;
+						text-decoration: underline;
+                        font-weight: 700; 
+					}
+				}
+				i{
+					position: relative;
+					top: 3px;
+					width: rem(20px);
+					margin-right: rem(15px);
+    				text-align: center;
+					font-size: rem(20px);
+                    color: $primary-100;
+				}
+				address{
+					font-style: normal;
+				}
+			}
+        }
+        &-form{
+            input[type="submit"], .btn{
+                margin-top: rem(38px);
+                min-width: rem(150px);
+                @include respond-below(lg) {
+                    margin-top: rem(20px);
+                }
+            }
+            .row{
+                margin-left: rem(-5px);
+                margin-right: rem(-5px);
+            }
+            [class*="cell-"]{
+                padding-left: rem(5px);
+                padding-right: rem(5px);
+            }
+        }
+    }
+    &.bg-gradient{
+        *:not(.btn, input[type="submit"]){
+            color: $white;
+        }
+        input[type="url"],
+        input[type="text"],
+        input[type="password"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="search"],
+        input[type="number"],
+        input[type="date"],
+        textarea,
+        select {
+            background-color: rgba($white, 0.30);
+            border: none;
+            color: $white;
+            &::-webkit-input-placeholder {
+                color: $white;
+                opacity: 1;
+            }
+            &:-ms-input-placeholder {
+                color: $white;
+            }                
+            &::placeholder {
+                color: $white;
+            }
+        }
+        a{
+            &:hover, &:focus{
+                color: $yellow !important;
+            }
+        }
+    }
+    &:not(.bg-gradient) {
+        .form-field{
+            &::before{
+                display: none;
+            }
+        }
+    }   
+    &.space-bottom-minus{  
+        padding-top: rem(120px);
+        padding-bottom: rem(200px);
+        @include respond-below(xxl){
+            padding-top: rem(100px);
+        }
+        @include respond-below(lg){
+            padding-top: rem(60px);
+            padding-bottom: rem(120px);
+        }
+    }
+}

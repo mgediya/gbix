@@ -1,0 +1,23 @@
+.manual-assurances{
+    padding-bottom: rem(70px);
+    @include respond-below(md){
+        padding-bottom: rem(10px);
+    }
+    .ma{
+        &-icon{
+            height: rem(75px);
+            width: rem(75px);
+            background-image: linear-gradient($primary-100, $secondary-100);
+            border-radius: rem(100px);
+            margin-bottom: rem(25px);
+            margin-left: auto;
+            margin-right: auto;
+        }
+        &-block{
+            margin-bottom: rem(50px);
+            h4, .h4{
+                color: $black;
+            }
+        }
+    }
+}

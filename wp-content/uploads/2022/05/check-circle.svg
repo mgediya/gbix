@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient x1="6.3837824E-16" y1="0.5" x2="1" y2="0.5" id="gradient_1">
+      <stop offset="0%" stop-color="#00C642" />
+      <stop offset="100%" stop-color="#006638" />
+    </linearGradient>
+  </defs>
+  <g id="bicheck-circle-fill">
+    <path d="M5 5L20 5L20 20L5 20L5 5Z" id="ViewBox" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+    <path d="M25 12.5C25 19.4036 19.4036 25 12.5 25C5.59644 25 8.45442e-16 19.4036 0 12.5C-8.45442e-16 5.59644 5.59644 1.26816e-15 12.5 0C19.4036 -1.26816e-15 25 5.59644 25 12.5ZM18.7969 7.76562C18.5714 7.54089 18.2642 7.41759 17.9459 7.42407C17.6276 7.43056 17.3256 7.56627 17.1094 7.79999L11.6829 14.7141L8.41254 11.4422C7.95081 11.0119 7.23128 11.0246 6.78501 11.4709C6.33874 11.9172 6.32604 12.6367 6.75629 13.0984L10.8907 17.2344C11.1157 17.459 11.4224 17.5825 11.7403 17.5766C12.0582 17.5708 12.36 17.4359 12.5766 17.2031L18.8141 9.40624C19.2564 8.94632 19.2495 8.21703 18.7985 7.76562L18.7969 7.76562Z" id="Shape" fill="url(#gradient_1)" stroke="none" />
+  </g>
+</svg>

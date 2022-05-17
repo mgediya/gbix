@@ -1,0 +1,117 @@
+.trusted-leader{
+    position: relative;
+    padding: rem(170px) 0 rem(120px);
+    z-index: 1;
+    @include respond-below(xl) {
+        padding: rem(120px) 0 rem(80px);
+    } 
+    @include respond-below(md) {
+        padding: rem(60px) 0;
+    } 
+    &::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 85%;
+        width: 100%;
+        background-image: linear-gradient(180deg,rgba(255,255,255,0), rgba(255,255,255,1));
+        z-index: -1;
+        pointer-events: none;
+    }
+    .tl{
+        &-wrap{
+            position: relative;
+            max-width: rem(1000px);
+            z-index: 1;
+        }
+        &-content{
+            @include respond-below(xxl) {
+                padding: 0 rem(100px);
+            }
+            @include respond-below(md) {
+                padding: 0;
+            }   
+            h2, .h2 {
+                @include respond-below(md) {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    min-height: rem(180px);
+                    max-width: rem(250px);
+                    margin-left: auto;
+                    margin-right: auto;
+                } 
+            }  
+            p{
+                &:not(:last-child){
+                    margin-bottom: rem(22px);
+                }
+            }
+        }
+    }
+    .coin-wrap{
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        pointer-events: none; 
+        @include respond-below(xxl) {
+            width: 85%;
+            left: 10%;
+        }      
+        @include respond-below(md) {
+            width: 70%;
+            left: 21%;
+            top: rem(-80px);
+            height: rem(300px);
+        } 
+        @include respond-below(sm) {
+            width: 88%;
+            left: 11%;
+        } 
+        .coin{
+            &-1, &-2, &-3, &-4{
+                position: absolute;                
+            }
+            &-1{                
+                left: -24%;
+                top: -15%;
+                max-width: rem(215px);
+                @include respond-below(md) {
+                    max-width: rem(150px);
+                    top: 0;
+                } 
+            }
+            &-2{
+                left: -25%;
+                bottom: 0;
+                max-width: rem(240px);
+                @include respond-below(md) {
+                    max-width: rem(200px);
+                    left: -35%;
+                } 
+            }
+            &-3{
+                right: -19%;
+                top: -7%;
+                max-width: rem(190px);
+                @include respond-below(md) {
+                    max-width: rem(160px);  
+                }        
+            }
+            &-4{
+                right: -22%;
+                bottom: -10%;
+                max-width: rem(230px);
+                @include respond-below(md) {
+                    max-width: rem(180px);
+                    right: -24%;
+                    bottom: 2%;
+                } 
+            }
+        }
+    }
+}

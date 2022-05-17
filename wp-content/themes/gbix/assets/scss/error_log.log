@@ -1,0 +1,5 @@
+05/13/22 11:11:40: style.scss - Incompatible units rem and px^-1.: abstracts/_function.scss on line 29, at column 9
+Call Stack:
+#0 function rem components/_why-gbix.scss on line 63
+#1 import components/_why-gbix.scss components/_core.scss on line 5
+#2 import components/_core.scss style.scss on line 14

@@ -1,0 +1,136 @@
+/*--- footer ---*/
+.main-footer {
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding: rem(150px) 0 rem(90px);
+	background-image: linear-gradient(to bottom, $primary-200, $secondary-300 99%);
+	border-radius: rem(100px) rem(100px) 0 0;
+	@include respond-below(xl){
+		padding: rem(100px) 0 rem(45px);
+	}
+	@include respond-below(lg){
+		border-radius: rem(50px) rem(50px) 0 0;
+		padding: rem(60px) 0 rem(25px);
+	}
+	[class*="cell-"]{
+		margin-bottom: rem(20px);
+	}
+	.footer{
+		&-left{
+			.brand{
+				display: block;
+				width: rem(200px);
+				margin-bottom: rem(40px);
+				@include respond-below(lg){
+					width: rem(156px);
+				}
+			}
+			ul{
+				padding: 0;
+				margin-bottom: rem(45px);
+				@include respond-below(lg){
+					margin-bottom: rem(35px);
+				}
+			}
+			li{
+				display: flex;
+				align-items: baseline;
+				list-style: none;
+				color: $white;
+				a{
+					color: $white;
+					text-decoration: none;
+					transition: 0.3s;
+					&:hover, &:focus{
+						color: $secondary-100;
+						text-decoration: underline;
+					}
+				}
+				i{
+					position: relative;
+					top: 3px;
+					width: rem(20px);
+					margin-right: rem(15px);
+    				text-align: center;
+					font-size: rem(20px);
+				}
+				address{
+					font-style: normal;
+				}
+			}
+		}
+		&-quick-links{
+			li{
+				font-size: rem(12px);
+				text-transform: uppercase;
+				font-weight: 500;
+				letter-spacing: 2px;
+				&:first-child{
+					padding-top: 0;
+				}
+			}
+		}
+		&-right{
+			@include respond-below(lg){
+				margin-bottom: rem(40px);
+			}
+			span{
+				display: block;
+				color: $white;
+				font-size: rem(12px);
+				text-transform: uppercase;
+				margin-bottom: rem(14px);
+				font-weight: 500;
+				letter-spacing: 2px;
+				@include respond-below(lg){
+					margin-bottom: rem(12px);
+				}
+			}
+			ul{
+				margin: 0;
+				padding: 0;
+			}
+			li{
+				display: block;
+				list-style: none;
+				padding-top: rem(14px);
+				padding-bottom: rem(14px);
+				@include respond-below(lg){
+					padding-top: rem(12px);
+					padding-bottom: rem(12px);
+				}
+
+				&:first-child{
+					padding-top: 0;
+				}
+				a{
+					display: inline-block;
+					color: $white;
+					text-decoration: none;
+					&:hover, &:focus{
+						color: $secondary-100;
+						text-decoration: underline;
+					}
+				}
+				&.current_page_item{
+					a{
+						color: $secondary-100;
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+		&-bottom{
+			margin-bottom: 0;
+			p{
+				color: $white;
+				font-size: rem(12px);
+				line-height: normal;
+			}
+			@include respond-below(lg){
+				text-align: center;
+			}
+		}
+	}
+}

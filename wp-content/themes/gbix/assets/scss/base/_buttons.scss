@@ -1,0 +1,78 @@
+%btn {
+	display: inline-block;
+	padding: rem(10px) rem(15px);
+	vertical-align: top;
+	color: $black;
+	font-size: $font-size-base;
+	line-height: 1.5;
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid $yellow;
+	border-radius: rem(10px);
+	font-weight: 700;
+	background-color: $yellow;
+	transition: background-color 0.3s ease 0s, color 0.3s ease 0s, border-color 0.3s ease 0s;
+
+	&:hover,
+	&:focus,
+	a:hover & {
+		color: $yellow;
+		background-color: $black;
+		text-decoration: none;
+		cursor: pointer;
+	}
+}
+.btn {
+	@extend %btn;
+	&-link {
+		margin-bottom: rem(2px);
+		color: $primary-100;
+		font-size: $font-size-base;
+		text-decoration: none;
+		border-bottom: 1px solid transparent;
+		transition: background-color 0.3s ease 0s, color 0.3s ease 0s, border-color 0.3s ease 0s;
+
+		&:hover,
+		&:focus,
+		a:hover & {
+			color: $secondary-100;
+			text-decoration: none;
+			border-color: currentColor;
+		}
+	}
+	&.-outline{
+		background-color: transparent;
+		color: $primary-100;
+		border-color: $primary-100; 
+		&:hover, &:focus{
+			background-color: $primary-100;
+			color: $white;
+		}
+		&.-white{
+			color: $white;
+			border-color: $white;
+			&:hover,
+			&:focus {
+				color: $black;
+				border-color: $white;
+				background-color: $white;
+			}
+		}
+	}	
+	&.-login{
+		display: inline-flex;
+		align-items: center;
+		&:after {
+			@include icon('\e903');
+			margin-left: rem(4px);
+			font-size: 75%;
+		}
+	}
+}
+
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	@extend %btn;
+	-webkit-appearance: button;
+}

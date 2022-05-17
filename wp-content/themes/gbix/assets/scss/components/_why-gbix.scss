@@ -1,0 +1,127 @@
+.why-gbix{
+    padding: rem(100px) 0 rem(50px);
+    overflow: hidden;
+    @include respond-below(xl){
+        padding-top: rem(60px);
+    }
+    h4, .h4{
+        font-size: rem(36px);
+    }
+    .wg{
+        &-block{
+            padding: rem(50px);
+            background-color: $gray;
+            border-radius: rem(25px);
+            margin-bottom: rem(25px);
+            overflow: hidden;
+            @include respond-below(md){
+                flex-wrap: wrap;
+                padding: rem(45px) rem(25px);
+            }
+        }
+        &-icon{
+            min-width: rem(60px);
+            width: rem(60px);
+            height: rem(60px);
+            margin-right: rem(50px);
+            @include respond-below(lg){
+                margin-right: rem(30px);
+            }
+            @include respond-below(md){
+                margin-right: auto;
+                margin-left: auto;
+                margin-bottom: rem(25px);
+            }
+        }
+        &-content{
+            > h4, > .h4, > p{
+                @include respond-below(md){
+                    text-align: center;
+                }
+            } 
+        }
+        &-outer{
+            position: relative;
+            width: calc(100% - 1px);
+            padding-bottom: rem(55px);
+            @include respond-below(md){
+                padding-bottom: rem(30px);
+            }
+            &::before{
+                content: "";
+                position: absolute;
+                top: 0;
+                right: -2px;
+                height: 100%;
+                width: 25%;
+                background-image: linear-gradient(90deg,rgba(255,255,255,0), rgba($gray,1));
+                z-index: 1;
+                pointer-events: none;                
+            }
+        }
+        &-inner{
+            &-block{
+                min-width: rem(400px);
+                max-width: rem(400px);
+                padding-left: rem(48px);
+                padding-right: rem(48px);
+                @include respond-below(md){
+                    min-width: rem(350px);
+                    max-width: rem(350px);
+                    padding-right: rem(30px);
+                }
+                &:first-child{
+                    padding-left: 0;
+                    @include respond-below(md){
+                        padding-left: 0;
+                        
+                    }
+                }
+                &:not(:last-child){
+                    border-right: 1px solid $gray-300;
+                }
+                q{
+                    display: block;
+                    line-height: rem(32px);
+                    margin-bottom: rem(22px); 
+                }
+                h6, .h6{
+                    font-weight: 700;
+                    color: $black;
+                    margin-bottom: rem(5px);
+                    font-size: rem(16px);
+                }
+                span{
+                    font-weight: 500;
+                    font-size: rem(12px);
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                }
+            }
+        }
+        &-bottom{
+            h4, .h4{
+                @include respond-below(lg){
+                    font-size: rem(30px);
+                }
+            } 
+        }
+    }
+    .os{
+        &-scrollbar{
+            &-track{
+                background-color: $white !important;
+            }
+            &-handle{
+                background: $secondary-100 !important;
+            }
+        }
+    }
+    .triangle-right{
+        &::after{
+            @include respond-below(md){
+                display: none;
+            }
+        }
+    }
+}

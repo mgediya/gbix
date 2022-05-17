@@ -1,0 +1,123 @@
+.meet-team{
+    padding: rem(125px) 0;
+    overflow: hidden;
+    @include respond-below(lg){
+        padding: rem(90px) 0;
+    }
+    @include respond-below(md){
+        padding: rem(60px) 0;
+    }
+    .mt{
+        &-item{            
+            .social-icon{
+                position: absolute;
+                display: block;
+                color: $blue;
+                top: rem(27px);
+                right: rem(27px);
+                text-decoration: none;
+                background-color: $white;
+                border-radius: rem(5px);
+                font-size: rem(24px);
+                @include respond-below(lg){
+                    top: rem(15px);
+                    right: rem(15px);
+                }
+                &::before{
+                    display: block;
+                    transform: scale(1.07);
+                }
+                &:hover, &:focus{
+                    color: $secondary-100;
+                }
+            }
+        }
+        &-img{
+            position: relative;
+            padding-top: aspect-ratio(350px, 400px);
+            border-radius: rem(25px);
+            overflow: hidden;
+            @include imgFit();
+            @include respond-below(lg){
+                border-radius: rem(15px);
+            }
+        }
+        &-info{
+            padding: rem(22px) rem(15px) 0;
+            h6, .h6{
+                color: $black;
+                font-weight: 700;
+                margin-bottom: rem(10px);
+            }
+            p{
+                color: $black;
+                line-height: rem(24px);
+            }
+        }
+    }
+    .slick{
+        &-list {
+            padding-left: 18.5% !important;
+            padding-right: 18.5% !important;
+            @include respond-below(xl){
+                padding-left: 12% !important;
+                padding-right: 12% !important;
+            }
+            @include respond-below(lg){
+                padding-left: 32% !important;
+                padding-right: 32% !important;
+            }
+            @include respond-below(sm){
+                padding-left: 15% !important;
+                padding-right: 15% !important;
+            }
+        }
+        &-slide{
+            padding: 0 rem(25px);
+            opacity: 0.25;
+            transition: 0.3s;
+            @include respond-below(xxl){
+                padding: 0 rem(20px); 
+            }
+        }
+        &-active{
+            opacity: 1;
+        }
+        &-arrow {
+            top: 38%;
+            @include respond-below(xxl){
+                top: 32%;
+            }
+        }
+        &-prev {
+            left: 16.4%;
+            @include respond-below(xxl){
+                left: 15.5%; 
+            }
+            @include respond-below(xl){
+                left: 8.5%;
+            }
+            @include respond-below(lg){
+                left: 27.5%;
+            }
+            @include respond-below(sm){
+                left: 5.5%;
+            }
+        }
+        &-next {
+            right: 16.4%;
+            @include respond-below(xxl){
+                right: 15.5%;
+            }
+            @include respond-below(xl){
+                right: 8.5%;
+            }
+            @include respond-below(lg){
+                right: 27.5%;
+            }
+            @include respond-below(sm){
+                right: 5.5%;
+            }
+        }
+    }
+}

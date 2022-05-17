@@ -1,0 +1,85 @@
+.what-is-best{
+    padding: rem(120px) 0 rem(90px);
+    @include respond-below(lg){
+        padding: rem(60px) 0;
+    }
+    .wib{
+        &-cell{
+            position: relative;
+            input[type="radio"]{
+                position: absolute;
+                opacity: 0;
+                &:checked {
+                    + .wib-block {
+                        background-color: $primary-100;
+                        box-shadow: 0 0 rem(15px) rgba($black, 0.15);
+                        z-index: 1;
+                        h4, .h4, p {
+                            color: $white;
+                        }
+                        .icon-selected{
+                            opacity: 1;
+                        }
+                        .icon-normal{
+                            opacity: 0;
+                        }
+                    }
+                }
+            }
+            &:first-child{
+                margin-right: rem(-15px);
+                @include respond-below(lg){
+                    margin-right: 0;
+                }
+            }
+            &:last-child{
+                margin-left: rem(-15px);
+                @include respond-below(lg){
+                    margin-left: 0;
+                    margin-top: rem(-35px);                    
+                }
+                @include respond-below(sm){
+                    .wib-block{
+                        padding-top: rem(60px);
+                    }
+                }
+            }
+        }
+        &-block{
+            position: relative;
+            display: block;
+            padding: rem(50px) rem(75px);
+            background-color: $gray-400;
+            border-radius: rem(25px);
+            cursor: pointer;
+            transition: 0.3s;
+            @include respond-below(sm){
+                padding: rem(35px);
+            }
+            h4, .h4, p, img {
+                transition: 0.3s;
+            }    
+            h4, .h4{
+                font-size: rem(36px);
+            }        
+            .icon-selected{
+                position: absolute;
+                left: 0;
+                top: 0;
+                opacity: 0;
+            }
+            .top-title{
+                font-size: rem(16px);
+            }
+        }
+        &-icon{
+            position: relative;
+            width: rem(60px);
+            height: rem(60px);
+            margin-bottom: rem(25px);
+        }
+    }
+    .btn{
+        min-width: rem(190px);
+    }
+}

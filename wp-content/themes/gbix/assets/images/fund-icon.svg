@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="51.049805px" height="62px" viewBox="0 0 51.049805 62" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="Group-27" transform="translate(1 1)">
+    <path d="M0.0498047 26.0833L0.0498047 56.9167C0.0498047 58.6196 1.42091 60 3.1123 60L49.0498 60L49.0498 29.1667L3.1123 29.1667C1.42091 29.1667 0.0498047 27.7862 0.0498047 26.0833C0.0498047 24.3804 1.42091 23 3.1123 23L10.2581 23" id="Stroke-1" fill="none" fill-rule="evenodd" stroke="#006638" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0 30L0 31.0084C0 31.3556 0.0351782 31.6893 0.1 32" id="Stroke-3" fill="none" fill-rule="evenodd" stroke="#006638" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M4.0498 34.2L49.0498 34.2" id="Stroke-5" fill="none" fill-rule="evenodd" stroke="#006638" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4" />
+    <path d="M0 49L0 50.0084C0 50.3556 0.0351782 50.6893 0.1 51" id="Stroke-9" fill="none" fill-rule="evenodd" stroke="#006638" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M4.0498 53.2L49.0498 53.2" id="Stroke-11" fill="none" fill-rule="evenodd" stroke="#006638" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4" />
+    <path d="M13.0498 26C13.9476 23.1086 16.7419 21 20.0499 21C23.3578 21 26.1521 23.1086 27.0498 26" id="Stroke-15" fill="none" fill-rule="evenodd" stroke="#00C642" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M39.0499 11C41.4148 12.1803 43.0498 14.7127 43.0498 17.6461C43.0498 21.7076 39.9158 25 36.0498 25C32.1838 25 29.0498 21.7076 29.0498 17.6461" id="Stroke-17" fill="none" fill-rule="evenodd" stroke="#00C642" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M35.4741 2.57571C37.9175 5.5715 37.4699 9.98075 34.4741 12.4243C31.4783 14.8677 27.0691 14.42 24.6255 11.4243C22.1821 8.42854 22.6297 4.01917 25.6255 1.57574C28.6213 -0.867691 33.0306 -0.420079 35.4741 2.57571Z" id="Stroke-19" fill="none" fill-rule="evenodd" stroke="#00C642" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

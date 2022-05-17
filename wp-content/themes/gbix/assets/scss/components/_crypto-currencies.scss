@@ -1,0 +1,32 @@
+.crypto-currencies{
+    .cc{
+        &-logo-grid{
+            max-width: rem(850px);
+            margin: 0 auto;
+            @include respond-below(sm){
+                max-width: rem(350px);
+            }
+            .cp-list{
+                margin: 0 0 rem(50px) 0;
+                &-icon{
+                    min-width: rem(49px);
+                    width: rem(50px);
+                    height: rem(50px);
+                    margin: 0 rem(25px) 0 0;
+                    @include respond-below(md){
+                        min-width: rem(25px);
+                        width: rem(25px);
+                        height: rem(25px);
+                        margin: 0 rem(20px) 0 0;
+                    }
+                    img{
+                        width: 100%;
+                    }
+                }
+                span{
+                    word-break: keep-all;
+                }
+            }
+        }
+    }
+}

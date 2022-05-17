@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="50px" height="62px" viewBox="0 0 50 62" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="Group-31" transform="translate(1 1)">
+    <path d="M43.5799 60L4.4201 60C1.97905 60 0 58.0536 0 55.6525L0 24.1907C0 21.9514 1.72768 20.0589 3.99568 19.8632C17.3319 18.7123 30.6682 18.7123 44.0045 19.8632C46.2725 20.0589 48 21.9514 48 24.1907L48 55.6525C48 58.0536 46.0211 60 43.5799 60Z" id="Stroke-1" fill="none" fill-rule="evenodd" stroke="#006638" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M38 40L38 46.1295L34 50" id="Stroke-3" fill="none" fill-rule="evenodd" stroke="#006638" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M10 39L10 33.8L17.3648 26L29.6395 26L36 32.6718" id="Stroke-5" fill="none" fill-rule="evenodd" stroke="#006638" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M25 54.0002L30 54.0002" id="Stroke-7" fill="none" fill-rule="evenodd" stroke="#006638" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M11 48L17.4937 54L20 54" id="Stroke-9" fill="none" fill-rule="evenodd" stroke="#006638" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M20 31.0017L20 31.0017L27.1985 31L31.9995 36.0001L32 41" id="Stroke-11" fill="none" fill-rule="evenodd" stroke="#006638" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M20 49L15 43.8L15 36" id="Stroke-13" fill="none" fill-rule="evenodd" stroke="#006638" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M26 39.9999C26 41.1045 25.1046 42 24.0001 42C22.8954 42 22 41.1045 22 39.9999C22 38.8954 22.8954 38 24.0001 38C25.1046 38 26 38.8954 26 39.9999Z" id="Stroke-15" fill="none" fill-rule="evenodd" stroke="#00C642" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M40 33.9999C40 35.1045 39.1046 36 37.9999 36C36.8954 36 36 35.1045 36 33.9999C36 32.8954 36.8954 32 37.9999 32C39.1046 32 40 32.8954 40 33.9999Z" id="Stroke-17" fill="none" fill-rule="evenodd" stroke="#00C642" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M24 42L24 47.3052L30 54" id="Stroke-19" fill="none" fill-rule="evenodd" stroke="#006638" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M34 50L30 46" id="Stroke-21" fill="none" fill-rule="evenodd" stroke="#006638" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M12 46C12 47.1045 11.1046 48 9.99992 48C8.89538 48 8 47.1045 8 46C8 44.8955 8.89538 44 9.99992 44C11.1046 44 12 44.8955 12 46Z" id="Stroke-23" fill="none" fill-rule="evenodd" stroke="#00C642" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M20.0003 49L19.9998 54" id="Stroke-25" fill="none" fill-rule="evenodd" stroke="#006638" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M12 19L12 12.4866C12 8.35651 15.4372 5 19.6667 5L27.3333 5C31.5628 5 35 8.35651 35 12.4866L35 19" id="Stroke-27" fill="none" fill-rule="evenodd" stroke="#006638" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M7 19L7 12.2818C7 5.51454 12.6988 0 19.6923 0L27.3077 0C34.3012 0 40 5.51454 40 12.2818L40 19" id="Stroke-29" fill="none" fill-rule="evenodd" stroke="#006638" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

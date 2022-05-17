@@ -1,0 +1,82 @@
+.why-crypto{
+    padding: rem(150px) 0;
+    @include respond-below(lg){
+        padding: rem(100px) 0;
+    }
+    @include respond-below(sm){
+        padding: rem(70px) 0 rem(50px);
+    }
+    .wc{
+        &-content-block{
+            max-width: rem(371px);
+            @include respond-below(lg){
+                max-width: 100%;
+                width: 100%;
+                text-align: center;
+                margin:0 0 rem(50px) 0;
+            }
+            h2{
+                margin: 0 0 rem(25px) 0;
+                color: $primary-100;
+            }
+            p{
+                margin: 0 0 rem(50px) 0;
+                @include respond-below(lg){
+                    font-size: rem(16px);
+                    line-height: rem(32px);
+                }
+                &:last-of-type{
+                    margin:0;
+                }
+            }
+        }
+        &-image{
+            &-block{
+                margin: rem(20px) 0 rem(50px) 0;
+                @include respond-below(sm){
+                    margin: rem(15px) 0 rem(25px) 0;
+                }
+                img{
+                    @include respond-below(lg){
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                }
+            }
+            &-caption{
+                p{
+                    color: $black;
+                    font-size: rem(20px);
+                    line-height: rem(30px);      
+                    font-weight: 600;              
+                    text-align: left;
+                    @include respond-below(lg){
+                        text-align: center;
+                        margin: 0 0  rem(25px) 0;
+                    }
+                    @include respond-below(md){
+                        font-size: rem(18px);
+                        line-height: rem(27px);
+                    }
+                    
+                }
+            }
+            &-info{
+                display: flex;
+                justify-content: flex-end;
+                padding: 0 0 0 rem(80px);
+                @include respond-below(lg){
+                    text-align: center;
+                    padding: 0;
+                }
+                span{
+                    display: inline-block;
+                    color: $black;
+                    font-size: rem(12px);
+                    line-height: rem(18px);
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+}

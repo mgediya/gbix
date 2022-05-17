@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient x1="1" y1="0.5" x2="1.3877788E-17" y2="0.5" id="gradient_1">
+      <stop offset="0%" stop-color="#00CA20" />
+      <stop offset="40.390076%" stop-color="#008D2C" />
+      <stop offset="100%" stop-color="#006734" />
+    </linearGradient>
+  </defs>
+  <g id="Group-2" transform="translate(1 1)">
+    <path d="M12.5 25C19.4036 25 25 19.4036 25 12.5C25 5.59644 19.4036 0 12.5 0C5.59644 0 0 5.59644 0 12.5C0 19.4036 5.59644 25 12.5 25Z" id="Oval" fill="url(#gradient_1)" fill-rule="evenodd" stroke="none" />
+    <g id="Group" transform="translate(4 4)">
+      <g id="akar-iconsplus">
+        <path d="M0 0L17 0L17 17L0 17L0 0Z" id="ViewBox" fill="none" fill-rule="evenodd" stroke="none" />
+        <path d="M8.49998 14.1666L8.49998 8.49992M8.49998 8.49992L8.49998 2.83325M8.49998 8.49992L14.1666 8.49992M8.49998 8.49992L2.83331 8.49992" id="Shape" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" />
+      </g>
+    </g>
+  </g>
+</svg>

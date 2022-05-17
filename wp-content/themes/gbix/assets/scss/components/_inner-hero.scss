@@ -1,0 +1,40 @@
+// Inner hero banner
+.inner-hero {
+    position: relative;
+    padding: rem(266px) 0 rem(150px);
+    @include linear-gradient;
+    margin-bottom: rem(22px);  
+    border-radius: 0 0 rem(100px) rem(100px);
+    @include respond-below(lg){
+        padding: rem(200px) 0 rem(100px);
+        border-radius: 0 0 rem(50px) rem(50px);
+    } 
+    @include respond-below(md){
+        padding: rem(125px) 0 rem(75px);
+    }   
+    &::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(90deg, $secondary-100, $primary-100);
+        border-radius: 0 0 rem(100px) rem(100px);
+        transform: scale(1.02, 1.08);
+        z-index: -1;
+        @include respond-below(lg){
+            transform: scale(1.03, 1.1);
+            border-radius: 0 0 rem(50px) rem(50px);
+        }   
+        @include respond-below(md){
+            transform: scale(1.04, 1.13);
+        } 
+        @include respond-below(sm){
+            transform: scale(1.06, 1.15);
+        }   
+    }
+    &-top-title, h1, .h1{
+        color: $white;
+    }
+}
